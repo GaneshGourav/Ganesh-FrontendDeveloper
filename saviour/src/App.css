@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  /* font-family: "ZCOOL KuaiLe", sans-serif; */
+  font-weight: 400;
+  font-style: normal;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,7 +38,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+} */
