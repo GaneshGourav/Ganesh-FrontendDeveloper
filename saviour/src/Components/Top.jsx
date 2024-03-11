@@ -9,7 +9,7 @@ export const Navbar = () => {
   };
   return (
     <>
-      <main className="main">
+      <main className="main h-1/2">
         <nav className="flex justify-around items-center">
           <button className="block md:hidden" onClick={handleNavbar}>
             <svg
