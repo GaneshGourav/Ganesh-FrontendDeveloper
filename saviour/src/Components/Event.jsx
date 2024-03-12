@@ -1,7 +1,7 @@
 export const Event = () => {
     return (
       <>
-        <main className="bg-black flex flex-col justify-around">
+        <main className="bg-black flex flex-col justify-around mb-20">
           <div>
             <p className="text-red-600 text-2xl font-shojumaru mb-10">
               Participate in our IDO Event!
