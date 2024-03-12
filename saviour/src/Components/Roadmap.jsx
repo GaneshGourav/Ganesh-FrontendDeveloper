@@ -25,7 +25,7 @@ export const Roadmap = () =>{
                 
                 
                 </div>
-                <div className=" relative border border-red-600 rounded-2xl" ><img src={img1} alt="" />
+                <div className=" relative border border-red-600 rounded-2xl " ><img src={img1} alt="" />
                 <div className="absolute bottom-5 text-left left-5">
                     <p className="text-white">Phase 2</p>
                     <p className="text-gray-400 text-[14px]">Increase Liquidity and Trading Volume</p></div>

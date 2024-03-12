@@ -1,5 +1,6 @@
 import intro_logo from "../assets/introduction_logo.svg"
 import background from "../assets/intro_background_img.svg"
+import "../Styles/Animation.css"
 
 export const Introduction = () =>{
 
@@ -19,7 +20,7 @@ export const Introduction = () =>{
         <button className="text-white font-ZCOOLKuaiLe sm:text-center mb-5  p-3 rounded-full bg-gradient-to-r from-red-600 to-red-700">Documents</button>
    
     </div>
-    <div className="F w-full md:w-1/3 mt-4 md:mt-0 order-1 md:order-2 p-5 ">
+    <div className="F w-full md:w-1/3 mt-4 md:mt-0 order-1 md:order-2 p-5 " id="zoom">
     <p className="font-shojumaru text-red-600 pr-5 text-center text-3xl mb-5 md:hidden">Introduction</p>
       <img src={intro_logo} alt="Introduction_logo" className="max-w-1/4 max-h-1/4" />
     </div>

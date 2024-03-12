@@ -17,7 +17,7 @@ export const Event = () => {
                 </p>
               </div>
   
-              <div className="flex justify-center items-center m-auto border border-red-600 w-full sm:w-1/2 pt-3 pb-3 rounded-lg relative mt-10">
+              <div id="left" className="flex justify-center items-center m-auto border border-red-600 w-full sm:w-1/2 pt-3 pb-3 rounded-lg relative mt-10">
                 <div className="flex items-center justify-center m-auto p-8">
                   <div className="font-ZCOOLKuaiLe">
                     <table className="w-full  text-left table-fixed">

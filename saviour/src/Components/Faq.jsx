@@ -1,10 +1,10 @@
 import FaqImg from "../assets/FaqImg.svg"
-
+import "../Styles/Animation.css"
 export const Faq = () =>{
     return <>
     <main>
 <div className="flex justify-center flex-col md:flex-row items-center mb-16">
-    <div className="w-1/2"><img src={FaqImg} alt="" className="" /></div>
+    <div className="w-1/2" id="zoom"><img src={FaqImg} alt="" className="" /></div>
     <div>
         
     </div>
