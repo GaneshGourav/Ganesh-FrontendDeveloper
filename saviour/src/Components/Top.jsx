@@ -10,7 +10,7 @@ export const Navbar = () => {
   return (
     <>
       <main className="main h-1/2">
-        <nav className="flex justify-around items-center">
+        <nav className="flex justify-around items-center pt-10 ">
           <button className="block md:hidden" onClick={handleNavbar}>
             <svg
               className="w-6 h-6 text-black"
@@ -27,14 +27,15 @@ export const Navbar = () => {
               ></path>
             </svg>
           </button>
-          <div className="border border-black flex justify-center items-center">
-            <div className="flex justify-center items-center h-30">
-              <img src={logo} alt="Navbar_logo" className="max-w-full max-h-full p-0 object-cover" />
-              <div className="text-white font-ZCOOLKuaiLe">Saviour</div>
+          <div className=" flex justify-center items-center mt-auto ">
+            <div className="flex justify-center items-center mt-auto  ">
+              <img src={logo} alt="Navbar_logo" className="h-30px  absolute p-0 object-cover" />
+              <div className="text-white font-ZCOOLKuaiLe relative left-20 -top-4 hidden md:block ">Saviour</div>
             </div>
+            
           </div>
           <div
-            className={`md:flex font-ZCOOLKuaiLe justify-between items-center pr-10 pl-10 gap-5 border rounded-md bg-#191818 border-black text-white ${
+            className={`md:flex font-ZCOOLKuaiLe justify-between items-center pr-10 pl-10 gap-5 border rounded-md bg-black border-black text-white ${
               open ? "block" : "hidden"
             }`}
           >
