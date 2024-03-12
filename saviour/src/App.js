@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Event } from './Components/Event';
+import { Footer } from './Components/Footer';
 import { Introduction } from './Components/Intoduction';
 import { Roadmap } from './Components/Roadmap';
 import { Tokenomics } from './Components/Tokenomics';
@@ -15,6 +16,7 @@ function App() {
    <Event/>
    <Tokenomics/>
    <Roadmap/>
+   <Footer/>
     </div>
   );
 }
