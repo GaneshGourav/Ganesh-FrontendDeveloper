@@ -20,16 +20,16 @@ export const Event = () => {
               <div className="flex justify-center items-center m-auto border border-red-600 w-full sm:w-1/2 pt-3 pb-3 rounded-lg relative mt-10">
                 <div className="flex items-center justify-center m-auto p-8">
                   <div className="font-ZCOOLKuaiLe">
-                    <table className="w-full text-left table-fixed">
-                      <tbody className="text-white">
+                    <table className="w-full  text-left table-fixed">
+                      <tbody className="text-white ">
                         <tr>
                           <td>Total Token Supply</td>
                           <td>20%</td>
-                        </tr>
-                        <tr>
+                        </tr><br />
+                        <tr >
                           <td>Soft cap</td>
                           <td>200 BNB</td>
-                        </tr>
+                        </tr><br />
                         <tr>
                           <td>
                             Initial Exchange <br /> Rate
@@ -37,16 +37,16 @@ export const Event = () => {
                           <td>1 BNB</td>
                         </tr>
                       </tbody>
-                    </table>
+                    </table> <br />
                     <p className="text-white text-left ">
                       Recommended Referral Commission
-                    </p>
+                    </p> <br />
                     <table className="w-full text-left table-fixed">
                       <tbody className="text-white">
                         <tr>
                           <td>1st Generation</td>
                           <td>5%</td>
-                        </tr>
+                        </tr> <br />
                         <tr>
                           <td>2nd Generation</td>
                           <td>2%</td>
@@ -60,7 +60,7 @@ export const Event = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center flex-col mt-5">
-                <button className="text-white mt-5 border p-3 bg-red-500 rounded-full">
+                <button className="text-white mt-5  p-3 bg-gradient-to-r from-red-600 to-red-700 rounded-full">
                   Connect Wallet
                 </button>
                 <p className="text-red-600 font-shojumaru mt-5 w-[250px] text-[17px] sm:w-[300px]">
@@ -69,18 +69,19 @@ export const Event = () => {
                 <div className="text-red-500 border border-red-600 rounded-full w-full sm:w-1/2 pl-5 pt-1 pb-1 pr-1 flex justify-between bg-black mt-5">
                   <input
                     type="text"
-                    placeholder="Generate your token"
-                    className="bg-black"
+                    placeholder="Generate  a unique referral link"
+                    className="bg-black focus:border-transparent w-full"
+                    
                   />
                   <button className="text-white bg-red-600 p-2 rounded-full">
                     Generate
                   </button>
-                </div>
+                </div> <br /><br />
               </div>
             </div>
             <div className="font-ZCOOLKuaiLe text-white w-full sm:w-1/2 pt-5 pb-5">
-              <div className="border border-red-600 w-full sm:w-1/2 m-auto rounded-lg pt-5 pb-5">
-                <p className="text-red-600 font-shojumaru gap-4">PRESEAL 1</p>
+              <div className=" relative border border-red-600 w-full sm:w-1/2 m-auto rounded-lg pt-5 pb-5">
+                <p className="text-red-600 font-shojumaru gap-4 pt-10">PRESEAL 1</p>
                 <p className="mt-5">1 Saviour = 0.657 USDT</p>
                 <p className="mt-5">Next Stage Price = 0.723 USDT</p>
                 <p className="mt-5">sold - $34,56,56,764/$50,00,00,000</p>
@@ -103,12 +104,22 @@ export const Event = () => {
                   className="mt-5 bg-black border border-red-600 rounded-full p-3"
                 />
                 <div className="mt-5">
-                  <button className="border pt-2 pl-4 pr-4 pb-2 rounded-full mr-5">
+                  <button className=" pt-2 pl-4 pr-4 pb-2 rounded-full bg-gradient-to-r from-red-600 to-red-700 mr-5">
                     Buy
                   </button>
-                  <button className="border pt-2 pl-4 pr-4 pb-2 rounded-full">
+                  <button className=" pt-2 pl-4 pr-4 pb-2 bg-gradient-to-r from-red-600 to-red-700 rounded-full">
                     Claim Drop
                   </button>
+                  
+                </div>
+                <div className="absolute left-[90px]  -top-6 flex justify-center gap-3">
+                    <div className="border border-red-600 p-3 "><p className="text-center  ">0</p></div>
+                    <div className="border border-red-600 p-3"><p>0</p></div>
+                    <div><div><p className="text-red-600 font-bold ">.</p></div>
+                    <div><p className="text-red-600 font-bold ">.</p></div></div>
+                    <div className="border border-red-600 p-3"><p>0</p></div>
+                    <div className="border border-red-600 p-3"><p>0</p></div>
+
                 </div>
               </div>
             </div>

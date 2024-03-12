@@ -48,7 +48,8 @@ export const Tokenomics = () => {
                 </tr>
               </tbody>
             </table>
-            <div className="font-shojumaru border border-red-600 rounded-lg p-3 text-white w-1/2 sm:w-1/2 bg-red-700 absolute top-[-25px]">
+            <div className="font-shojumaru border border-red-600 rounded-lg p-3 text-white w-1/2 sm:w-1/2 bg-red-700 absolute top-[-25px] 
+            left-[100px]">
               <p>Token Details</p>
             </div>
           </div>

@@ -16,7 +16,7 @@ export const Introduction = () =>{
         succeed. 
         read more...
       </p>
-        <button className="text-white font-ZCOOLKuaiLe sm:text-center mb-5  p-3 rounded-full bg-gradient-to-t from-red-500 to-red-300">Documents</button>
+        <button className="text-white font-ZCOOLKuaiLe sm:text-center mb-5  p-3 rounded-full bg-gradient-to-r from-red-600 to-red-700">Documents</button>
    
     </div>
     <div className="F w-full md:w-1/3 mt-4 md:mt-0 order-1 md:order-2 p-5 ">

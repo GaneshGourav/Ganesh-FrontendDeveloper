@@ -48,7 +48,7 @@ export const Navbar = () => {
               <img src={arrowdown} alt="down-arrow" />
             </div>
           </div>
-          <button className="walletbtn font-ZCOOLKuaiLe border border-1px solid white pr-4 pl-4 pt-3 pb-3 rounded-full text-white bg-gradient-to-t from-red-500 to-red-300">
+          <button className="walletbtn font-ZCOOLKuaiLe  pr-4 pl-4 pt-3 pb-3 rounded-full text-white bg-gradient-to-r from-red-600 to-red-700">
             Connect wallet
           </button>
         </nav>
