@@ -12,3 +12,41 @@
 #zoom{
     animation: zoom 1.75s infinite;
 }
+.wrapper{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .accordion{
+    width: 400px;
+} */
+/* .item{
+    background-color: rgb(204, 53, 53);
+    margin-bottom: 5px;
+    padding: 10px 20px;
+
+} */
+/* .title{
+    color: white;
+} */
+
+
+.content{
+    color:"white";
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in;
+  
+}
+.content.show{
+    color: white;
+    height: 30px;
+    max-width: 100vh;
+    transition: all 0.5s ease-in;
+}
+#actives:focus{
+    outline: blue;
+    border: none;
+}

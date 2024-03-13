@@ -1,5 +1,6 @@
 import intro_logo from "../assets/introduction_logo.svg"
 import background from "../assets/intro_background_img.svg"
+import arrowdown from "../assets/ep_arrow-down-bold.svg";
 import "../Styles/Animation.css"
 
 export const Introduction = () =>{
@@ -17,7 +18,12 @@ export const Introduction = () =>{
         succeed. 
         read more...
       </p>
-        <button className="text-white font-ZCOOLKuaiLe sm:text-center mb-5  p-3 rounded-full bg-gradient-to-r from-red-600 to-red-700">Documents</button>
+      <div className="flex justify-center items-center">
+      <div className=" flex justify-center items-center gap-2 w-1/2 text-white font-ZCOOLKuaiLe  mb-5  p-3 rounded-full bg-gradient-to-r from-red-600 to-red-700">
+      <button >Documents</button>
+      <img src={arrowdown} alt="" />
+      </div>
+      </div>
    
     </div>
     <div className="F w-full md:w-1/3 mt-4 md:mt-0 order-1 md:order-2 p-5 " id="zoom">

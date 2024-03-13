@@ -27,15 +27,15 @@ export const Navbar = () => {
               ></path>
             </svg>
           </button>
-          <div className=" flex justify-center items-center mt-auto ">
+          <div className=" flex justify-center items-center mt-auto gap-5 ">
             <div className="flex justify-center items-center mt-auto  ">
               <img src={logo} alt="Navbar_logo" className="h-30px  absolute p-0 object-cover" />
-              <div className="text-white font-ZCOOLKuaiLe relative left-20 -top-4 hidden md:block ">Saviour</div>
+              <div className="text-white text-[20px] font-ZCOOLKuaiLe relative left-20 -top-4 hidden md:block ">Saviour</div>
             </div>
             
           </div>
           <div
-            className={`md:flex font-ZCOOLKuaiLe justify-between items-center pr-10 pl-10 gap-5 border rounded-md bg-black border-black text-white ${
+            className={`md:flex font-ZCOOLKuaiLe justify-between items-center pt-2 pb-2 pr-5 pl-5 gap-5  rounded-md bg-stone-800  text-white ${
               open ? "block" : "hidden"
             }`}
           >
